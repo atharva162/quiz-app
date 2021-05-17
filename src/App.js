@@ -70,8 +70,6 @@ return(
 
 <div class="answer-section">{questions[currentQuestion].Ans.map((Answer, index) => (<><button onClick={()=> handleClick(Answer.istrue)}>{Answer.anstxt}</button><br /></>)
 )}</div>
-
-
 </div>)
   }</div>
 )}
