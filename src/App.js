@@ -40,7 +40,16 @@ const questions= [
         {anstxt: 'Clock',istrue: false},
         {anstxt: 'Difference Engine',istrue: false}
       ]
-  }
+  },
+   { 
+     Ques: 'Entomology is the science that studies?',
+     Ans: [
+       { anstxt: 'Behavior of human beings', istrue: false},
+       { anstxt: 'Insects', istrue: false},
+       { anstxt: 'The origin and history of technical and scientific terms', istrue: false},
+       { anstxt: 'The formation of rocks', istrue: false}
+     ]
+    }
 ]
 
 const [currentQuestion, setCurrentQuestion] = useState(0);
